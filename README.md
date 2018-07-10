@@ -13,9 +13,9 @@ _**NOTE**_ :
 
 ```C
 $ git clone https://github.com/gabx/self-signed-certificate.git
-$  cd self-signed-certificate
-$  echo '01' > serial && touch index.txt
-$  cp /dev/null index.txt.attr
+$ cd self-signed-certificate
+$ echo '01' > serial && touch index.txt
+$ cp /dev/null index.txt.attr
 ```
 
 Then you must edit the **self-sign.conf** configuration file according to your need. 
